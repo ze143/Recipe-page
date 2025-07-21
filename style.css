@@ -1,0 +1,76 @@
+body {
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px; 
+}
+
+.all {
+    background-color: white;
+    width: 550px;
+    height: fit-content;
+    border-radius: 17px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.about {
+    background-color: hsl(330, 100%, 98%);
+    padding: 2px;
+    margin: 20px;
+    border-radius: 17px;
+}
+
+h5 {
+    margin: 20px;
+    line-height: 0px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 24px; 
+}
+
+.about-1 li {
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.ol-a2 li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.about-2 li {
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    color: hsl(14, 45%, 36%);
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+table tr:not(:last-child) td {
+    border-bottom: thin solid rgba(0, 0, 0, 0.103);
+}
+
+table td:nth-child(2) {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.103);
+}
